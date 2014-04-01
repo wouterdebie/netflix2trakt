@@ -1,0 +1,14 @@
+body {
+    background: #FFF;
+    color: #000;
+    font-family: "helvetica neue", arial, sans-serif;
+    font-size: 13px;
+}
+
+fieldset {
+    border: solid 1px #ccc;
+    border-radius: 3px;
+    padding: 4px 8px;
+    margin-bottom: 5px;
+    width: 400px;
+}

@@ -1,0 +1,60 @@
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="../css/popup.css">
+    <link rel="stylesheet" type="text/css" href="../css/tabs.css">
+    <script type="text/javascript" src="../js/jquery.min.js"></script>
+    <script type="text/javascript" src="../js/jquery.easytabs.min.js"></script>
+    <script src="../js/popup.js"></script>
+</head>
+<body>
+    <div id="status"><span></span></div>
+    <div id="wrapper"> 
+        <div id="tab-container" class="tab-container">
+          <ul class='etabs'>
+            <li class='tab'><a href="#tabs1-unseen">unseen (<span id="unseen_count"></span>)</a></li>
+            <li class='tab'><a href="#tabs1-seen">seen (<span id="seen_count"></span>)</a></li>
+            <li class='tab'><a href="#tabs1-all">all (<span id="all_count"></span>)</a></li>
+          </ul>
+          <div id="tabs1-unseen" class="content">
+                <table id="episode_list_unseen">
+                    <thead>
+                        <tr>
+                            <th>Match</th>
+                            <th>Episode</th>
+                            <th>Seen</th>
+                            <th>TVDB id</th>
+                        </tr>
+                    </thead>
+                    <tbody></tbody>
+                </table>
+          </div>
+          <div id="tabs1-seen" class="content">
+                <table id="episode_list_seen">
+                    <thead>
+                        <tr>
+                            <th>Match</th>
+                            <th>Episode</th>
+                            <th>Seen</th>
+                            <th>TVDB id</th>
+                        </tr>
+                    </thead>
+                    <tbody></tbody>
+                </table>
+          </div>
+          <div id="tabs1-all" class="content">
+                <table id="episode_list">
+                    <thead>
+                        <tr>
+                            <th>Match</th>
+                            <th>Episode</th>
+                            <th>Seen</th>
+                            <th>TVDB id</th>
+                        </tr>
+                    </thead>
+                    <tbody></tbody>
+                </table>
+          </div>
+        </div>
+    </div>
+</body>
+</html>
